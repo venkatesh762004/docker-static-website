@@ -18,3 +18,12 @@ docker rm -f static-website
 
 # Remove image
 docker rmi my-static-website:v1
+
+# Restart container
+docker restart static-website
+
+# View container details
+docker inspect static-website
+
+# View container logs
+docker logs static-website
